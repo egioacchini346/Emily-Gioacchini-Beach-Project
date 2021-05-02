@@ -25,8 +25,8 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-areas:
-                    "s1 s1 s2 s2"
-                    "s3 s3 s4 s4"
+                    ". s1 s1 s2 s2 ."
+                    ". s3 s3 s4 s4 ."
                     ". s5 s5 .";
                 gap: 16px;
             }
@@ -34,7 +34,7 @@
             @include lg {
                 grid-template-columns: repeat(6, 1fr);
                 grid-template-areas:
-                    "s1 s1  s2 s2 s3 s3"
+                    ". s1 s1  s2 s2 s3 s3 ."
                     ". s4 s4 s5 s5 .";
             }
 
