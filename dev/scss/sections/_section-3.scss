@@ -2,8 +2,6 @@
     section-3
 ============= */
 #section-3 {
-
-
     @include xl {
         display: grid;
         grid-template-columns: auto 1200px auto;
