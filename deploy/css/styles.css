@@ -623,14 +623,14 @@ footer > div section ul li i {
   #section-4 > div ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "s4-1 s4-1 s4-2 s4-2" "s4-3 s4-3 s4-4 s4-4" ". s4-5 s4-5 .";
+    grid-template-areas: "s1 s1 s2 s2" "s3 s3 s4 s4" ". s5 s5 .";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #section-4 > div ul {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "s4-1 s4-1  s4-2 s4-2 s4-3 s4-3" ". s4-4 s4-4 s4-5 s4-5 .";
+    grid-template-areas: "s1 s1  s2 s2 s3 s3" ". s4 s4 s5 s5 .";
   }
 }
 #section-4 > div ul li {
@@ -651,27 +651,27 @@ footer > div section ul li i {
   background-color: #E3907E;
 }
 @media (min-width: 768px) {
-  #section-4 > div ul #s4-1 {
-    grid-area: s4-1;
+  #section-4 > div ul #s1 {
+    grid-area: s1;
   }
 }
 @media (min-width: 768px) {
-  #section-4 > div ul #s4-2 {
-    grid-area: s4-2;
+  #section-4 > div ul #s2 {
+    grid-area: s2;
   }
 }
 @media (min-width: 768px) {
-  #section-4 > div ul #s4-3 {
-    grid-area: s4-3;
+  #section-4 > div ul #s3 {
+    grid-area: s3;
   }
 }
 @media (min-width: 768px) {
-  #section-4 > div ul #s4-4 {
-    grid-area: s4-4;
+  #section-4 > div ul #s4 {
+    grid-area: s4;
   }
 }
 @media (min-width: 768px) {
-  #section-4 > div ul #s4-5 {
-    grid-area: s4-5;
+  #section-4 > div ul #s5 {
+    grid-area: s5;
   }
 }
