@@ -355,11 +355,11 @@ template {
 /* =============
     Base
 ============= */
-#base ul {
+ul {
   margin: 0;
   padding: 0;
 }
-#base ul li {
+ul li {
   list-style: none;
 }
 
