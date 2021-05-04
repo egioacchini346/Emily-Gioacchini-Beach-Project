@@ -382,6 +382,7 @@ header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+  background-color: #026F88;
 }
 header > div {
   grid-area: header;
@@ -602,6 +603,9 @@ footer > div section ul li i {
 /* =============
     section-4
 ============= */
+#section-4 {
+  text-align: center;
+}
 @media (min-width: 768px) {
   #section-4 {
     display: grid;

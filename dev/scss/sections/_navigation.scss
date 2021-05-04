@@ -6,6 +6,7 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". navigation .";
 
+
     >div {
         grid-area: navigation;
     }
@@ -23,7 +24,6 @@
     }
 
     >div {
-        // border: 5px solid red;
         grid-area: search;
 
         form {

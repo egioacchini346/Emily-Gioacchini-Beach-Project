@@ -2,11 +2,14 @@
     section-4
 ============= */
 #section-4 {
+    
+    text-align: center;
 
     @include md {
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-4 .";
+        
     }
 
     @include xl {
