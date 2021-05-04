@@ -386,6 +386,8 @@ header {
 }
 header > div {
   grid-area: header;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* =============
@@ -448,6 +450,8 @@ footer > div section ul li i {
 }
 #navigation > div {
   grid-area: navigation;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #navigation {
@@ -471,6 +475,9 @@ footer > div section ul li i {
 /* =============
     section-1
 ============= */
+#section-1 {
+  padding-bottom: 30px;
+}
 #section-1 img {
   width: 100%;
 }
@@ -514,6 +521,9 @@ footer > div section ul li i {
 /* =============
     section-2
 ============= */
+#section-2 {
+  padding-bottom: 30px;
+}
 @media (min-width: 768px) {
   #section-2 {
     display: grid;
@@ -604,6 +614,7 @@ footer > div section ul li i {
     section-4
 ============= */
 #section-4 {
+  padding: 30px;
   text-align: center;
 }
 @media (min-width: 768px) {
