@@ -614,6 +614,7 @@ footer > div section ul li i {
     section-4
 ============= */
 #section-4 {
+  margin: 16px;
   padding: 30px;
   text-align: center;
 }
