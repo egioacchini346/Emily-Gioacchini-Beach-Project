@@ -362,6 +362,13 @@ ul {
 ul li {
   list-style: none;
 }
+ul button {
+  background-color: #E3907E;
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 14px;
+  color: #fff;
+}
 
 /* =============
     Typography
@@ -399,6 +406,18 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+}
+footer h1 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #fff;
+}
+footer address {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 12px;
+  color: #DAEAE7;
 }
 @media (min-width: 1200px) {
   footer {
@@ -444,9 +463,16 @@ footer > div section ul li i {
     Navigation
 ============= */
 #navigation {
+  align-content: left;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". navigation .";
+}
+#navigation div {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: regular;
+  font-size: 14px;
+  color: #000;
 }
 #navigation > div {
   grid-area: navigation;
@@ -464,6 +490,12 @@ footer > div section ul li i {
   #navigation {
     grid-template-columns: auto 1000px auto;
   }
+  #navigation div {
+    font-family: "Titillium Web", Arial, serif;
+    font-style: regular;
+    font-size: 35px;
+    color: #000;
+  }
 }
 #navigation > div {
   grid-area: search;
@@ -476,7 +508,34 @@ footer > div section ul li i {
     section-1
 ============= */
 #section-1 {
+  margin-bottom: 30px;
   padding-bottom: 30px;
+  text-align: left;
+}
+#section-1 h2 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 18px;
+  color: #fff;
+}
+#section-1 h3 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 16px;
+  color: #fff;
+}
+#section-1 h5 {
+  display: none;
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 18px;
+  color: #fff;
+}
+#section-1 p {
+  font-family: "Amaranth", Helvetica, serif;
+  font-size: 14px;
+  font-size: normal;
+  color: #fff;
 }
 #section-1 img {
   width: 100%;
@@ -486,10 +545,24 @@ footer > div section ul li i {
     display: grid;
     grid-template-columns: 40% auto;
   }
+  #section-1 ul h5 {
+    display: contents;
+    font-family: "Titillium Web", Arial, serif;
+    font-style: bold;
+    font-size: 18px;
+    color: #fff;
+  }
 }
 @media (min-width: 1024px) {
   #section-1 ul {
     grid-template-columns: 50% auto;
+  }
+  #section-1 ul h5 {
+    display: contents;
+    font-family: "Titillium Web", Arial, serif;
+    font-style: bold;
+    font-size: 25px;
+    color: #fff;
   }
 }
 #section-1 ul li {
@@ -500,6 +573,13 @@ footer > div section ul li i {
 @media (min-width: 1200px) {
   #section-1 ul li {
     grid-template-columns: auto 480px 16px;
+  }
+  #section-1 ul li h5 {
+    display: contents;
+    font-family: "Titillium Web", Arial, serif;
+    font-style: bold;
+    font-size: 25px;
+    color: #fff;
   }
 }
 #section-1 ul li a {
@@ -524,16 +604,34 @@ footer > div section ul li i {
 #section-2 {
   padding-bottom: 30px;
 }
+#section-2 h1 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 22px;
+  color: #fff;
+}
 @media (min-width: 768px) {
   #section-2 {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". section-2 .";
   }
+  #section-2 h1 {
+    font-family: "Amaranth", Helvetica, serif;
+    font-style: bold;
+    font-size: 29px;
+    color: #fff;
+  }
 }
 @media (min-width: 1200px) {
   #section-2 {
     grid-template-columns: auto 1000px auto;
+  }
+  #section-2 h1 {
+    font-family: "Amaranth", Helvetica, serif;
+    font-style: bold;
+    font-size: 31px;
+    color: #fff;
   }
 }
 #section-2 ul {
@@ -613,10 +711,26 @@ footer > div section ul li i {
 /* =============
     section-4
 ============= */
-#section-4 {
-  margin: 16px;
-  padding: 30px;
+#section-4 h1 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+}
+#section-4 h2 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 27px;
+  color: #000;
   text-align: center;
+}
+#section-4 p {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: thin;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
 }
 @media (min-width: 768px) {
   #section-4 {

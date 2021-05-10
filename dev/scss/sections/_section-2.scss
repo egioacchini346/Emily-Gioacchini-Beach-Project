@@ -5,14 +5,35 @@
 
     padding-bottom: 30px;
 
+    h1 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 22px;
+        color: #fff;
+    }
+
     @include md {
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-2 .";
+        
+        h1 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 29px;
+            color: #fff;
+        }
     }
 
     @include xl {
         grid-template-columns: auto 1000px auto;
+
+        h1 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 31px;
+            color: #fff;
+        }
     }
 
     ul {

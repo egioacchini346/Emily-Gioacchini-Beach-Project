@@ -2,8 +2,40 @@
     section-1
 ============= */
 #section-1 {
-
+    margin-bottom: 30px;
     padding-bottom: 30px;
+    text-align: left;
+
+    h2 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    h3 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    h5 {
+        display: none;
+        font-family: "Titillium Web", Arial, serif;
+        font-style: bold;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    p {
+        font-family: "Amaranth", Helvetica, serif;
+        font-size: 14px;
+        font-size: normal;
+        color: #fff;
+    }
+
+
 
     img {
         width: 100%;
@@ -14,10 +46,27 @@
         @include md {
             display: grid;
             grid-template-columns: 40% auto;
+
+            h5 {
+                display: contents;
+                font-family: "Titillium Web", Arial, serif;
+                font-style: bold;
+                font-size: 18px;
+                color: #fff;
+            }
+
         }
 
         @include lg {
             grid-template-columns: 50% auto;
+
+            h5 {
+                display: contents;
+                font-family: "Titillium Web", Arial, serif;
+                font-style: bold;
+                font-size: 25px;
+                color: #fff;
+            }
         }
 
         li {
@@ -27,12 +76,20 @@
 
             @include xl {
                 grid-template-columns: auto 480px 16px;
+
+                h5 {
+                    display: contents;
+                    font-family: "Titillium Web", Arial, serif;
+                    font-style: bold;
+                    font-size: 25px;
+                    color: #fff;
+                }
             }
 
             a {
                 grid-area: section-1-content;
                 border: 1px solid $pink;
-                
+
             }
         }
 

@@ -3,9 +3,29 @@
 ============= */
 #section-4 {
 
-    margin: 16px;
-    padding: 30px;
-    text-align: center;
+    h1 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 20px;
+        color: #000;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 27px;
+        color: #000;
+        text-align: center;
+    }
+
+    p {
+        font-family: "Titillium Web", Arial, serif;
+        font-style: thin;
+        font-size: 16px;
+        color: #000;
+        text-align: left;
+    }
 
     @include md {
         display: grid;

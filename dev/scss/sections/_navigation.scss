@@ -2,6 +2,16 @@
     Navigation
 ============= */
 #navigation {
+
+    align-content: left;
+
+    div {
+        font-family: "Titillium Web", Arial, serif;
+        font-style: regular;
+        font-size: 14px;
+        color: #000;
+    }
+
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". navigation .";
@@ -21,20 +31,27 @@
     grid-template-areas: ". navigation .";
     background-color: $white;
 
-    @include xl {
-        grid-template-columns: auto 1000px auto;
-    }
+        @include xl {
+            grid-template-columns: auto 1000px auto;
 
-    >div {
-        grid-area: search;
+            div {
+                font-family: "Titillium Web", Arial, serif;
+                font-style: regular;
+                font-size: 35px;
+                color: #000;
+            }
+        }
 
-        form {
+        >div {
+            grid-area: search;
 
-            input {}
+            form {
 
-            button {
-                background-color: $pink;
+                input {}
+
+                button {
+                    background-color: $pink;
+                }
             }
         }
     }
-}

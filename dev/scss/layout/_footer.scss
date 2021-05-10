@@ -2,11 +2,28 @@
     footer
 ============= */
 footer {
+    
     background-color: $darkblue;
     color: $mintgreen;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
+
+    h1 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    
+    address {
+        font-family: "Titillium Web", Arial, serif;
+        font-style: bold;
+        font-size: 12px;
+        color: $mintgreen;
+    }
+
 
     @include xl{
         grid-template-columns: auto 1200px auto;
