@@ -34,10 +34,58 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-4 .";
 
+        h1 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 30px;
+            color: #000;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 27px;
+            color: #000;
+            text-align: center;
+        }
+
+        p {
+            font-family: "Titillium Web", Arial, serif;
+            font-style: thin;
+            font-size: 16px;
+            color: #000;
+            text-align: left;
+        }
+
     }
 
     @include xl {
         grid-template-columns: auto 1200px auto;
+
+        h1 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 37px;
+            color: #000;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 27px;
+            color: #000;
+            text-align: center;
+        }
+
+        p {
+            font-family: "Titillium Web", Arial, serif;
+            font-style: thin;
+            font-size: 16px;
+            color: #000;
+            text-align: left;
+        }
     }
 
     >div {
@@ -115,36 +163,6 @@
                             background-color: $pink;
                         }
                     }
-                }
-            }
-
-            #s1 {
-                @include md {
-                    grid-area: s1;
-                }
-            }
-
-            #s2 {
-                @include md {
-                    grid-area: s2;
-                }
-            }
-
-            #s3 {
-                @include md {
-                    grid-area: s3;
-                }
-            }
-
-            #s4 {
-                @include md {
-                    grid-area: s4;
-                }
-            }
-
-            #s5 {
-                @include md {
-                    grid-area: s5;
                 }
             }
         }
