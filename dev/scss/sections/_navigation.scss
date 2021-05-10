@@ -3,14 +3,11 @@
 ============= */
 #navigation {
 
-    align-content: left;
+    font-family: "Titillium Web", Arial, serif;
+    font-style: regular;
+    font-size: 14px;
+    color: #000;
 
-    div {
-        font-family: "Titillium Web", Arial, serif;
-        font-style: regular;
-        font-size: 14px;
-        color: #000;
-    }
 
     display: grid;
     grid-template-columns: 16px auto 16px;
@@ -31,27 +28,29 @@
     grid-template-areas: ". navigation .";
     background-color: $white;
 
-        @include xl {
-            grid-template-columns: auto 1000px auto;
+    @include xl {
+        grid-template-columns: auto 1000px auto;
 
-            div {
-                font-family: "Titillium Web", Arial, serif;
-                font-style: regular;
-                font-size: 35px;
-                color: #000;
-            }
+        div {
+            font-family: "Titillium Web", Arial, serif;
+            font-style: regular;
+            font-size: 35px;
+            color: #000;
         }
+    }
 
-        >div {
-            grid-area: search;
+    >div {
+        grid-area: search;
 
-            form {
+        form {
 
-                input {}
+            align-content: flex-end;
 
-                button {
-                    background-color: $pink;
-                }
+            input {}
+
+            button {
+                background-color: $pink;
             }
         }
     }
+}

@@ -3,7 +3,7 @@
 ============= */
 #section-4 {
 
-    padding: 30px;
+    padding-bottom: 10px;
 
     h1 {
         font-family: "Amaranth", Helvetica, serif;
@@ -33,7 +33,7 @@
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-4 .";
-        
+
     }
 
     @include xl {

@@ -483,16 +483,13 @@ footer > div section ul li i {
     Navigation
 ============= */
 #navigation {
-  align-content: left;
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". navigation .";
-}
-#navigation div {
   font-family: "Titillium Web", Arial, serif;
   font-style: regular;
   font-size: 14px;
   color: #000;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". navigation .";
 }
 #navigation > div {
   grid-area: navigation;
@@ -519,6 +516,9 @@ footer > div section ul li i {
 }
 #navigation > div {
   grid-area: search;
+}
+#navigation > div form {
+  align-content: flex-end;
 }
 #navigation > div form button {
   background-color: #E3907E;
@@ -732,7 +732,7 @@ footer > div section ul li i {
     section-4
 ============= */
 #section-4 {
-  padding: 30px;
+  padding-bottom: 10px;
 }
 #section-4 h1 {
   font-family: "Amaranth", Helvetica, serif;
