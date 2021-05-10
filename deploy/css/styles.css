@@ -401,6 +401,7 @@ header > div {
     footer
 ============= */
 footer {
+  padding-bottom: 10px;
   background-color: #026F88;
   color: #DAEAE7;
   display: grid;
@@ -413,11 +414,30 @@ footer h1 {
   font-size: 20px;
   color: #fff;
 }
+footer h2 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 16px;
+  color: #DAEAE7;
+}
 footer address {
   font-family: "Titillium Web", Arial, serif;
   font-style: bold;
   font-size: 12px;
   color: #DAEAE7;
+}
+footer a {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 12px;
+  color: #DAEAE7;
+}
+footer button {
+  background-color: #E3907E;
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 14px;
+  color: #fff;
 }
 @media (min-width: 1200px) {
   footer {
@@ -711,6 +731,9 @@ footer > div section ul li i {
 /* =============
     section-4
 ============= */
+#section-4 {
+  padding: 30px;
+}
 #section-4 h1 {
   font-family: "Amaranth", Helvetica, serif;
   font-style: bold;
