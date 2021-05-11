@@ -362,18 +362,24 @@ ul {
 ul li {
   list-style: none;
 }
-ul button {
+
+button {
   background-color: #E3907E;
   font-family: "Titillium Web", Arial, serif;
   font-style: bold;
   font-size: 14px;
   color: #fff;
 }
-ul address {
+
+address {
   font-family: "Titillium Web", Arial, serif;
   font-style: bold;
   font-size: 12px;
   color: #DAEAE7;
+}
+
+#section-3 ul li img {
+  margin-bottom: none;
 }
 
 /* =============
@@ -717,6 +723,7 @@ footer > div section ul li i {
 }
 #section-3 ul li img {
   width: 100%;
+  margin-bottom: none;
 }
 @media (min-width: 1200px) {
   #section-3 ul #s3-1 {
@@ -764,6 +771,9 @@ footer > div section ul li i {
   font-size: 16px;
   color: #000;
   text-align: left;
+}
+#section-4 ul li {
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   #section-4 {

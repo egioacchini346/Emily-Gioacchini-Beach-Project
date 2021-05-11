@@ -8,19 +8,31 @@ ul {
     li {
         list-style: none;
     }
+}
 
-    button {
-        background-color: #E3907E;
-        font-family: "Titillium Web", Arial, serif;
-        font-style: bold;
-        font-size: 14px;
-        color: #fff;
+button {
+    background-color: #E3907E;
+    font-family: "Titillium Web", Arial, serif;
+    font-style: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+address {
+    font-family: "Titillium Web", Arial, serif;
+    font-style: bold;
+    font-size: 12px;
+    color: $mintgreen;
+}
+
+#section-3 {
+
+    ul {
+        li {
+            img {
+                margin-bottom: none;
+            }
+        }
     }
 
-    address {
-        font-family: "Titillium Web", Arial, serif;
-        font-style: bold;
-        font-size: 12px;
-        color: $mintgreen;
-    }
 }
