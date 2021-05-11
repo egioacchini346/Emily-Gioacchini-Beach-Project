@@ -369,6 +369,12 @@ ul button {
   font-size: 14px;
   color: #fff;
 }
+ul address {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: bold;
+  font-size: 12px;
+  color: #DAEAE7;
+}
 
 /* =============
     Typography
@@ -407,6 +413,10 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+  font-family: "Titillium Web", Arial, serif;
+  font-style: regular;
+  font-size: 14px;
+  color: #000;
 }
 footer h1 {
   font-family: "Amaranth", Helvetica, serif;

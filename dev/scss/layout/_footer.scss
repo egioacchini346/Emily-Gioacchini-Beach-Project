@@ -48,6 +48,14 @@ footer {
         color: #fff;
     }
 
+    font-family: "Titillium Web",
+    Arial,
+    serif;
+    font-style: regular;
+    font-size: 14px;
+    color: #000;
+
+
     @include xl {
         grid-template-columns: auto 1200px auto;
     }
